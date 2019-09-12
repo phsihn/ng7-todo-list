@@ -1,3 +1,6 @@
+# This is a simple web app that shows a to do list. Can add to the list, delete from the list, and toggle the list item.
+This was made purely for learning. Just front end with no real connection to a backend. Made using angular7.
+
 # NgTodolist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
