@@ -9,6 +9,7 @@ export class AddTodoComponent implements OnInit {
   @Output() addTodo: EventEmitter<any> = new EventEmitter();
 
   title:string;
+
   constructor() { }
 
   ngOnInit() {
@@ -22,6 +23,7 @@ export class AddTodoComponent implements OnInit {
     }
 
     this.addTodo.emit(todo);
-  }
 
+    this.title = '';
+  }
 }
